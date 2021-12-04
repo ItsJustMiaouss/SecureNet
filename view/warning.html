@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Warning</title>
+</head>
+<body>
+  <div class="flex h-screen bg-red-900 text-white text-center">
+    <div class="m-auto block">
+      <h1 class="text-6xl">Warning</h1>
+      <p class="text-2xl mt-3">You are attempting to visit a dangerous website!</p>
+      <code class="block mt-2 opacity-70" id="blockedURL"></code>
+      <a id="backURL" href="#" class="text-xl block border-solid rounded-md border-4 px-6 py-3 mt-4 hover:opacity-70">Go back to a secure website</a>
+      <a id="continueButton" class="text-sm block underline px-6 py-3 hover:opacity-70 cursor-pointer">Continue to the dangerous website.</a>
+    </div>
+  </div>
+
+  <script src="warning.js"></script>
+</body>
+</html>
