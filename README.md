@@ -19,6 +19,9 @@ During your navigation, if one of the domains is contained in the list, a confir
   
 </details>
 
+### 📌 I know a dangerous domain
+
+Please [open an issue](https://github.com/ItsJustMiaouss/SecureNet/issues) to add your domain to the dangerous list.
 
 ### 📜 License
 
