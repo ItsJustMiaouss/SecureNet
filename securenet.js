@@ -1,40 +1,5 @@
-const blockedDomains = [
-  "01net.com",
-  "uptodown.com",
-  "clubic.com",
-  "cnet.com",
-  "softonic.com",
-  "17ebook.co",
-  "aladel.net",
-  "bpwhamburgorchardpark.org",
-  "clicnews.com",
-  "dfwdiesel.net",
-  "divineenterprises.net",
-  "fantasticfilms.ru",
-  "gardensrestaurantandcatering.com",
-  "ginedis.com",
-  "gncr.org",
-  "hdvideoforums.org",
-  "hihanin.com",
-  "kingfamilyphotoalbum.com",
-  "likaraoke.com",
-  "mactep.org",
-  "magic4you.nu",
-  "marbling.pe.kr",
-  "nacjalneg.info",
-  "pronline.ru",
-  "purplehoodie.com",
-  "qsng.cn",
-  "seksburada.net",
-  "sportsmansclub.net",
-  "stock888.cn",
-  "tathli.com",
-  "teamclouds.com",
-  "texaswhitetailfever.com",
-  "wadefamilytree.org",
-  "xnescat.info",
-  "yt118.com"
-]
+const blockedDomains = []
+
 const currentURL = new URL(window.location.href)
 const warningPage = chrome.runtime.getURL('view/warning.html').toString()
 
