@@ -2,7 +2,7 @@
 name: Report a dangerous domain
 about: "\U0001F4CC Submit a dangerous domain"
 title: ''
-labels: ''
+labels: "\U0001F4CC Domain report"
 assignees: ''
 
 ---
