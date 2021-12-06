@@ -1,8 +1,6 @@
 # 🛡️ SecureNet
 A Chrome extension to secure your web browsing.
 
-**Soon available on the Chrome Web Store!**
-
 #### ℹ️ About
 
 SecureNet protects your navigation by recognizing the dangerous websites that you are visiting.
